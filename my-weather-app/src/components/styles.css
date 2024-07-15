@@ -26,7 +26,8 @@
     font-family: 'Recursive', sans-serif;
 }
 
-.day {
+.day,
+.time {
     padding: 15px;
     color: whitesmoke;
     font-family: 'Recursive', sans-serif;

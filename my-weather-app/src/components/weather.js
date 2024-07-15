@@ -15,6 +15,7 @@ const WeatherCard = ({weatherData}) => (
     </div>
       <div className="flex">
         <p className="day">{moment().format('dddd')}, <span>{moment().format('LL')}</span></p>
+        <p className='time'>{moment().format('LTS')}</p>
         <p className="description">{weatherData.weather[0].main}</p>
       </div>
 

@@ -9,6 +9,7 @@ export default function App() {
   const [long, setLong] = useState([]);
   const [data, setData] = useState([]);
 
+
   useEffect(() => {
     const fetchData = async () => {
       navigator.geolocation.getCurrentPosition(function(position) {
